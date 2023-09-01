@@ -339,7 +339,7 @@
     "updating": "Se actualizează..."
   },
   "wallets": {
-    "add_bitcoin": "Bitcoin",
+    "add_bitcoin": "XEP",
     "add_bitcoin_explain": "Portofel XEP simplu și puternic",
     "add_create": "Creează",
     "add_entropy_generated": "{gen} bytes de entropie generată",
@@ -426,14 +426,11 @@
     "xpub_title": "XPUB-ul portofelului"
   },
   "multisig": {
-    "multisig_vault": "Seif",
-    "default_label": "Seif multisig",
-    "multisig_vault_explain": "Cea mai bună securitate pentru sume mari. ",
     "provide_signature": "Furnizează semnătură",
     "vault_key": "Cheie seif {number}",
     "required_keys_out_of_total": "Chei necesare din total",
     "fee": "Comision: {number}",
-    "fee_btc": "{number} BTC",
+    "fee_btc": "{number} XEP",
     "confirm": "Confirmă",
     "header": "Trimite",
     "share": "Distribuie",

@@ -361,9 +361,6 @@
     "xpub_title": "錢包公鑰"
   },
   "multisig": {
-    "multisig_vault": "保管庫",
-    "default_label": "多重簽名保管庫",
-    "multisig_vault_explain": "大金額需要的最佳安全性",
     "provide_signature": "提供簽名",
     "vault_key": "保管庫密鑰 {number}",
     "required_keys_out_of_total": "總數中所需的密鑰",

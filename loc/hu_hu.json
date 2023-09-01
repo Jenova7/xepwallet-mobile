@@ -350,7 +350,7 @@
     "updating": "Frissítés..."
   },
   "wallets": {
-    "add_bitcoin": "Bitcoin",
+    "add_bitcoin": "XEP",
     "add_bitcoin_explain": "Egyszerű és masszív XEP tárca",
     "add_create": "Létrehoz",
     "add_entropy_generated": "{gen} generált entrópia byte",
@@ -445,14 +445,11 @@
     "xpub_title": "a tárca XPUB kulcsa"
   },
   "multisig": {
-    "multisig_vault": "Trezor",
-    "default_label": "Multisig Tárca",
-    "multisig_vault_explain": "Legnagyobb biztonság nagy összegekhez",
     "provide_signature": "Aláírás végrehajtása ",
     "vault_key": "Trezor kulcs {number}",
     "required_keys_out_of_total": "Szükséges kulcsok az összessből",
     "fee": "Tranzakciós díj: {number}",
-    "fee_btc": "{number} BTC",
+    "fee_btc": "{number} XEP",
     "confirm": "Megerősítés",
     "header": "Küldés",
     "share": "Megosztás",

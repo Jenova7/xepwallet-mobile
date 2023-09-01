@@ -470,14 +470,11 @@
     "xpub_title": "ウォレット XPUB"
   },
   "multisig": {
-    "multisig_vault": "金庫",
-    "default_label": "マルチシグ金庫",
-    "multisig_vault_explain": "大きな資産にベストなセキュリティ",
     "provide_signature": "署名を提供",
     "vault_key": "金庫キー {number}",
     "required_keys_out_of_total": "全体のうち必要なキー",
     "fee": "費用: {number}",
-    "fee_btc": "{number} BTC",
+    "fee_btc": "{number} XEP",
     "confirm": "承認",
     "header": "送る",
     "share": "共有",

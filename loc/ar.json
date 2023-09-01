@@ -470,14 +470,11 @@
     "xpub_title": "عنوان XPUB للمحفظة"
   },
   "multisig": {
-    "multisig_vault": "خزنة",
-    "default_label": "خزنة متعددة التواقيع",
-    "multisig_vault_explain": "افضل حماية للمبالغ الكبيرة",
     "provide_signature": "قدم توقيعًا",
     "vault_key": "مفتاح الخزنة {number}",
     "required_keys_out_of_total": "المفاتيح المطلوبة من الاجمالي",
     "fee": "الرسوم: {number}",
-    "fee_btc": "{number} BTC",
+    "fee_btc": "{number} XEP",
     "confirm": "تأكيد",
     "header": "إرسال",
     "share": "المشاركة",

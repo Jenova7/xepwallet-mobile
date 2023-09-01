@@ -349,7 +349,7 @@
     "updating": "Updaten..."
   },
   "wallets": {
-    "add_bitcoin": "Bitcoin",
+    "add_bitcoin": "XEP",
     "add_bitcoin_explain": "Eenvoudige en krachtige XEP-wallet",
     "add_create": "Aanmaken",
     "add_entropy_generated": "{gen} bytes gegenereerde entropie",
@@ -443,14 +443,11 @@
     "xpub_title": "Wallet XPUB"
   },
   "multisig": {
-    "multisig_vault": "Kluis",
-    "default_label": "Multisig Kluis",
-    "multisig_vault_explain": "Beste beveiliging voor grote bedragen",
     "provide_signature": "Geef een handtekening",
     "vault_key": "Kluissleutel {number}",
     "required_keys_out_of_total": "Vereiste sleutels uit het totaal",
     "fee": "Fee: {number}",
-    "fee_btc": "{number} BTC",
+    "fee_btc": "{number} XEP",
     "confirm": "Bevestig",
     "header": "Verzenden",
     "share": "Delen",

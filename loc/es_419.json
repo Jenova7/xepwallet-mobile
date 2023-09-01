@@ -161,7 +161,7 @@
     "details_create": "Crear Factura",
     "details_error_decode": "No se puede decodificar la dirección de XEP",
     "details_fee_field_is_not_valid": "La tasa no es válida.",
-    "details_frozen": "{amount} BTC está congelado",
+    "details_frozen": "{amount} XEP está congelado",
     "details_next": "Siguiente",
     "details_no_signed_tx": "El archivo seleccionado no contiene una transacción que se pueda importar.",
     "details_note_placeholder": "Nota personal",
@@ -373,7 +373,7 @@
     "updating": "Actualizando..."
   },
   "wallets": {
-    "add_bitcoin": "Bitcoin",
+    "add_bitcoin": "XEP",
     "add_bitcoin_explain": "Billetera XEP simple y potente",
     "add_create": "Crear",
     "add_entropy_generated": "{gen} bytes de entropía generada",
@@ -470,14 +470,11 @@
     "xpub_title": "XPUB de la billetera"
   },
   "multisig": {
-    "multisig_vault": "Bóveda",
-    "default_label": "Bóveda Multifirma",
-    "multisig_vault_explain": "La mejor seguridad para grandes cantidades",
     "provide_signature": "Proporcionar firma",
     "vault_key": "Clave de la Bóveda {number}",
     "required_keys_out_of_total": "Llaves requeridas del total",
     "fee": "Tarifa: {number}",
-    "fee_btc": "{number} BTC",
+    "fee_btc": "{number} XEP",
     "confirm": "Confirmar",
     "header": "Enviar",
     "share": "Compartir",

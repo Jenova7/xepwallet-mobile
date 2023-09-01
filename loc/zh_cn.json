@@ -369,9 +369,6 @@
     "xpub_title": "钱包公钥"
   },
   "multisig": {
-    "multisig_vault": "保管库",
-    "default_label": "多重签名保管库",
-    "multisig_vault_explain": "大金额需要的最佳安全性",
     "provide_signature": "提供签名",
     "vault_key": "保管库密钥 {number}",
     "required_keys_out_of_total": "总数中所需的密钥",

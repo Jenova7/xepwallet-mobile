@@ -122,7 +122,7 @@
     "bip32": "git+https://github.com/Jenova7/bip32.git",
     "bip38": "github:BlueWallet/bip38",
     "bip39": "3.1.0",
-    "bitcoinjs-lib": "git+https://github.com/ElectraProtocol/bitcoinjs-lib.git",
+    "bitcoinjs-lib": "git+https://github.com/Jenova7/bitcoinjs-lib.git",
     "bitcoinjs-message": "2.2.0",
     "bolt11": "1.4.1",
     "buffer": "6.0.3",

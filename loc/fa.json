@@ -457,9 +457,6 @@
     "xpub_title": "کلید XPUB کیف پول"
   },
   "multisig": {
-    "multisig_vault": "گاوصندوق",
-    "default_label": "گاوصندوق چندامضایی",
-    "multisig_vault_explain": "بالاترین امنیت برای مقادیر زیاد",
     "provide_signature": "ارائهٔ امضا",
     "vault_key": "کلید گاوصندوق {number}",
     "required_keys_out_of_total": "کلیدهای موردنیاز از کل",

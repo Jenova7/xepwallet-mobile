@@ -337,7 +337,7 @@
     "updating": "Mengemas kini..."
   },
   "wallets": {
-    "add_bitcoin": "Bitcoin",
+    "add_bitcoin": "XEP",
     "add_bitcoin_explain": "Dompet XEP yang mudah dan berkuasa",
     "add_create": "Cipta",
     "add_entropy_generated": "{gen} bait entropi telah terjana",
@@ -417,14 +417,8 @@
     "xpub_title": "Dompet XPUB"
   },
   "multisig": {
-    "multisig_vault": "Bilik Kebal",
-    "default_label": "Bilik Kebal Tandamai",
-    "multisig_vault_explain": "Keselamatan terbaik untuk jumlah wang yang besar",
-    "provide_signature": "Berikan tandatangan",
-    "vault_key": "Kunci Bilik Kebal {number}",
-    "required_keys_out_of_total": "Anak kunci diperlukan daripada jumlah keseluruhan",
     "fee": "Yuran: {number}",
-    "fee_btc": "{number} BTC",
+    "fee_btc": "{number} XEP",
     "confirm": "Pasti",
     "header": "Hantar",
     "share": "Kongsi",

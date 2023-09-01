@@ -153,7 +153,7 @@
     "details_create": "Créer la requête",
     "details_error_decode": "Impossible de décoder l'adresse XEP",
     "details_fee_field_is_not_valid": "Champ frais invalide",
-    "details_frozen": "{amount} BTC est gelé",
+    "details_frozen": "{amount} XEP est gelé",
     "details_next": "Suivant",
     "details_no_signed_tx": "Le fichier sélectionné ne contient pas de transaction pouvant être importée.",
     "details_note_placeholder": "note à moi même (optionnelle)",
@@ -362,7 +362,7 @@
     "updating": "Chargement..."
   },
   "wallets": {
-    "add_bitcoin": "Bitcoin",
+    "add_bitcoin": "XEP",
     "add_bitcoin_explain": "Portefeuille XEP simple et puissant",
     "add_create": "Créer",
     "add_entropy_generated": "{gen} octets d'entropie générée",
@@ -457,14 +457,11 @@
     "xpub_title": "XPUB portefeuille"
   },
   "multisig": {
-    "multisig_vault": "Coffre",
-    "default_label": "Coffre-fort multi-signature",
-    "multisig_vault_explain": "Meilleur sécurité pour les gros montants",
     "provide_signature": "Fournir la signature",
     "vault_key": "Clé du coffre {number}",
     "required_keys_out_of_total": "Clés requises par rapport au total",
     "fee": "Frais: {number}",
-    "fee_btc": "{number} BTC",
+    "fee_btc": "{number} XEP",
     "confirm": "Confirmer",
     "header": "Envoyer",
     "share": "Partager",

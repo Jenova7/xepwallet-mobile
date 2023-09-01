@@ -161,7 +161,7 @@
     "details_create": "Stwórz fakturę",
     "details_error_decode": "Nie można zdekodować adresu XEP",
     "details_fee_field_is_not_valid": "Błędnie wypełnione pole z opłatą",
-    "details_frozen": "{amount} BTC jest zamrożona",
+    "details_frozen": "{amount} XEP jest zamrożona",
     "details_next": "Dalej",
     "details_no_signed_tx": "Wskazany plik nie zawiera transakcji, która może zostać zaimportowana.",
     "details_note_placeholder": "Własny opis transakcji",
@@ -373,7 +373,7 @@
     "updating": "Aktualizuję..."
   },
   "wallets": {
-    "add_bitcoin": "Bitcoin",
+    "add_bitcoin": "XEP",
     "add_bitcoin_explain": "Prosty i potężny portfel XEP",
     "add_create": "Utwórz",
     "add_entropy_generated": "{gen} bajtów wygenerowanej entropii",
@@ -470,14 +470,11 @@
     "xpub_title": "XPUB portfela"
   },
   "multisig": {
-    "multisig_vault": "Skarbiec",
-    "default_label": "Skarbiec wielopodpisowy",
-    "multisig_vault_explain": "Najlepsze bezpieczeństwo dla dużych kwot",
     "provide_signature": "Podaj podpis",
     "vault_key": "Klucz Skarbca {number}",
     "required_keys_out_of_total": "Wymagane klucze spośród wszystkich",
     "fee": "Opłata: {number}",
-    "fee_btc": "{number} BTC",
+    "fee_btc": "{number} XEP",
     "confirm": "Potwierdź",
     "header": "Wyślij",
     "share": "Udostępnij",

@@ -258,7 +258,7 @@
     "updating": "A atualizar..."
   },
   "wallets": {
-    "add_bitcoin": "Bitcoin",
+    "add_bitcoin": "XEP",
     "add_bitcoin_explain": "Carteira XEP simples e poderosa",
     "add_create": "Adicionar",
     "add_entropy_generated": "{gen} bytes de entropia gerada",

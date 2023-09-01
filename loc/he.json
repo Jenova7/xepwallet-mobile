@@ -454,9 +454,6 @@
     "xpub_title": "מפתח צפייה של הארנק"
   },
   "multisig": {
-    "multisig_vault": "כספת",
-    "default_label": "כספת רבת-חתימות",
-    "multisig_vault_explain": "ההגנה הטובה ביותר לסכומים גדולים",
     "provide_signature": "ספקו חתימה",
     "vault_key": "מפתח כספת {number}",
     "required_keys_out_of_total": " מפתחות נדרשים מתוך הסך הכולל",

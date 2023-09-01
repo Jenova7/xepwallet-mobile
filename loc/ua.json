@@ -240,7 +240,7 @@
     "updating": "Оновлення..."
   },
   "wallets": {
-    "add_bitcoin": "Bitcoin",
+    "add_bitcoin": "XEP",
     "add_bitcoin_explain": "Простий і потужний Біткойн гаманець",
     "add_create": "Створити",
     "add_import_wallet": "Імпортувати гаманець",
@@ -297,9 +297,8 @@
     "xpub_title": "XPUB Гаманця"
   },
   "multisig": {
-    "multisig_vault": "Сховище",
     "fee": "Комісія: {number}",
-    "fee_btc": "{number} BTC",
+    "fee_btc": "{number} XEP",
     "confirm": "Підтвердити",
     "header": "Надіслати",
     "share": "Поділитися",

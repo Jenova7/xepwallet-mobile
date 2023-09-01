@@ -291,9 +291,6 @@
     "xpub_title": "XPUB ของกระเป๋าสตางค์"
   },
   "multisig": {
-    "multisig_vault": "ห้องนิรภัย",
-    "default_label": "ห้องนิรภัยหลายลายเซ็น",
-    "multisig_vault_explain": "ความปลอดภัยที่ดีที่สุดสำหรับเงินจำนวนมาก",
     "provide_signature": "ใส่ลายเซ็น",
     "required_keys_out_of_total": "กุญแจที่ต้องการจากทั้งหมด",
     "fee": "ค่าธรรมเนียม: {number}",

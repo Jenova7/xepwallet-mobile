@@ -348,7 +348,7 @@
     "updating": "Aggiornamento..."
   },
   "wallets": {
-    "add_bitcoin": "Bitcoin",
+    "add_bitcoin": "XEP",
     "add_bitcoin_explain": "Portafoglio XEP semplice e potente",
     "add_create": "Crea",
     "add_entropy_generated": "{gen} byte di entropia generata",
@@ -417,12 +417,9 @@
     "xpub_title": "XPUB del Portafoglio"
   },
   "multisig": {
-    "multisig_vault": "Cassaforte",
-    "default_label": "Cassaforte Multisig",
-    "multisig_vault_explain": "La miglior sicurezza per grossi importi",
     "required_keys_out_of_total": "Chiavi richieste sul totale",
     "fee": "Commissione: {number}",
-    "fee_btc": "{number} BTC",
+    "fee_btc": "{number} XEP",
     "confirm": "Conferma",
     "header": "Invia",
     "share": "Condividi",
