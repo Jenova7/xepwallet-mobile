@@ -290,7 +290,8 @@ const WalletsList = () => {
 
   const onBarScanned = value => {
     if (!value) return;
-    DeeplinkSchemaMatch.navigationRouteFor({ url: value }, completionValue => {
+    let realValue = value.replace("xep:", "bitcoin:");
+    DeeplinkSchemaMatch.navigationRouteFor({ url: realValue }, completionValue => {
       ReactNativeHapticFeedback.trigger('impactLight', { ignoreAndroidSystemSettings: false });
       navigate(...completionValue);
     });

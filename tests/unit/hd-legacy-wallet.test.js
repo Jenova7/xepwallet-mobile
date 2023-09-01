@@ -36,8 +36,8 @@ describe('Legacy HD (BIP44)', () => {
       '02ad7b2216f3a2b38d56db8a7ee5c540fd12c4bbb7013106eff78cc2ace65aa002',
     );
 
-    assert.strictEqual(hd._getDerivationPathByAddress(hd._getExternalAddressByIndex(0)), "m/44'/0'/0'/0/0");
-    assert.strictEqual(hd._getDerivationPathByAddress(hd._getInternalAddressByIndex(0)), "m/44'/0'/0'/1/0");
+    assert.strictEqual(hd._getDerivationPathByAddress(hd._getExternalAddressByIndex(0)), "m/44'/597'/0'/0/0");
+    assert.strictEqual(hd._getDerivationPathByAddress(hd._getInternalAddressByIndex(0)), "m/44'/597'/0'/1/0");
   });
 
   it('can create TX', async () => {
@@ -179,7 +179,7 @@ describe('Legacy HD (BIP44)', () => {
   it('can create with custom derivation path', async () => {
     const hd = new HDLegacyP2PKHWallet();
     hd.setSecret('abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about');
-    hd.setDerivationPath("m/44'/0'/1'");
+    hd.setDerivationPath("m/44'/597'/1'");
 
     assert.strictEqual(
       hd.getXpub(),
@@ -190,7 +190,7 @@ describe('Legacy HD (BIP44)', () => {
     assert.strictEqual(hd._getInternalAddressByIndex(0), '1DgjtFUiXvqxGic9A9fiDPrHNyKC4cGtTH');
     assert.strictEqual(hd._getExternalWIFByIndex(0), 'KzReLDRfwGJ7bBH6WjLQ36e2WxjHob3d61EKnZQT86nutd5tpkvC');
 
-    assert.strictEqual(hd._getDerivationPathByAddress(hd._getExternalAddressByIndex(0)), "m/44'/0'/1'/0/0");
-    assert.strictEqual(hd._getDerivationPathByAddress(hd._getInternalAddressByIndex(0)), "m/44'/0'/1'/1/0");
+    assert.strictEqual(hd._getDerivationPathByAddress(hd._getExternalAddressByIndex(0)), "m/44'/597'/1'/0/0");
+    assert.strictEqual(hd._getDerivationPathByAddress(hd._getInternalAddressByIndex(0)), "m/44'/597'/1'/1/0");
   });
 });

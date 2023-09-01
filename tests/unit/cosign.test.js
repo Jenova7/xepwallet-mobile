@@ -208,7 +208,7 @@ describe('AbstractHDElectrumWallet.cosign', () => {
 
     const signerWallet = new HDSegwitBech32Wallet();
     signerWallet.setSecret(process.env.HD_MNEMONIC_BIP84);
-    signerWallet.setDerivationPath("m/84'/0'/1'"); // account 1
+    signerWallet.setDerivationPath("m/84'/597'/1'"); // account 1
 
     // setting up watch-only wallet that tracks signer wallet, with the same fp & path:
     const watchOnlyWallet = new WatchOnlyWallet();

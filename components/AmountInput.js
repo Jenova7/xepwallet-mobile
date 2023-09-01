@@ -112,13 +112,13 @@ class AmountInput extends Component {
     let newUnit;
     if (previousUnit === BitcoinUnit.BTC) {
       newUnit = BitcoinUnit.SATS;
-    } else if (previousUnit === BitcoinUnit.SATS) {
-      newUnit = BitcoinUnit.LOCAL_CURRENCY;
+    //} else if (previousUnit === BitcoinUnit.SATS) {
+      //newUnit = BitcoinUnit.LOCAL_CURRENCY;
     } else if (previousUnit === BitcoinUnit.LOCAL_CURRENCY) {
       newUnit = BitcoinUnit.BTC;
     } else {
-      newUnit = BitcoinUnit.BTC;
-      previousUnit = BitcoinUnit.SATS;
+      newUnit = BitcoinUnit.LOCAL_CURRENCY;
+      previousUnit = BitcoinUnit.BTC;
     }
     this.onAmountUnitChange(previousUnit, newUnit);
   };
@@ -279,7 +279,7 @@ class AmountInput extends Component {
                   </Pressable>
                 )}
                 {unit !== BitcoinUnit.LOCAL_CURRENCY && amount !== BitcoinUnit.MAX && (
-                  <Text style={[styles.cryptoCurrency, stylesHook.cryptoCurrency]}>{' ' + loc.units[unit]}</Text>
+                  <Text style={[styles.cryptoCurrency, stylesHook.cryptoCurrency]}>{' ' + loc.units[BitcoinUnit.BTC]}</Text>
                 )}
               </View>
               <View style={styles.secondaryRoot}>
@@ -291,7 +291,7 @@ class AmountInput extends Component {
                 </Text>
               </View>
             </View>
-            {!disabled && amount !== BitcoinUnit.MAX && (
+            {/*!disabled && amount !== BitcoinUnit.MAX && (
               <TouchableOpacity
                 accessibilityRole="button"
                 accessibilityLabel={loc._.change_input_currency}
@@ -301,7 +301,7 @@ class AmountInput extends Component {
               >
                 <Image source={require('../img/round-compare-arrows-24-px.png')} />
               </TouchableOpacity>
-            )}
+            )*/}
           </View>
           {this.state.isRateOutdated && (
             <View style={styles.outdatedRateContainer}>

@@ -29,15 +29,16 @@ const RateExtractors = {
   CoinGecko: async (ticker: string): Promise<number> => {
     let json;
     try {
-      const res = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=${ticker.toLowerCase()}`);
+      const res = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=electra-protocol&vs_currencies=${ticker.toLowerCase()}`);
       json = await res.json();
     } catch (e: any) {
       throw new Error(`Could not update rate for ${ticker}: ${e.message}`);
     }
-    let rate = json?.bitcoin?.[ticker] || json?.bitcoin?.[ticker.toLowerCase()]; // eslint-disable-line
+    let rate = json?.["electra-protocol"]?.[ticker.toLowerCase()]; // eslint-disable-line
     if (!rate) throw new Error(`Could not update rate for ${ticker}: data is wrong`);
     return rate;
   },
+  /*
   Bitstamp: async (ticker: string): Promise<number> => {
     let json;
     try {
@@ -122,6 +123,7 @@ const RateExtractors = {
     if (!(rate >= 0)) throw new Error(`Could not update rate for ${ticker}: data is wrong`);
     return rate;
   },
+  */
 } as const;
 
 type FiatUnit = {
@@ -129,7 +131,7 @@ type FiatUnit = {
     endPointKey: string;
     symbol: string;
     locale: string;
-    source: 'CoinDesk' | 'Yadio' | 'Exir' | 'wazirx' | 'Bitstamp';
+    source: 'CoinDesk' | 'CoinGecko';
   };
 };
 export const FiatUnit = untypedFiatUnit as FiatUnit;

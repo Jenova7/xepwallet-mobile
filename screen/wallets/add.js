@@ -16,7 +16,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import {
   BlueText,
   BlueListItem,
-  LightningButton,
+  //LightningButton,
   BitcoinButton,
   VaultButton,
   BlueFormLabel,
@@ -243,6 +243,7 @@ const WalletsAdd = () => {
     setSelectedWalletType(ButtonSelected.ONCHAIN);
   };
 
+  /*
   const handleOnLightningButtonPressed = () => {
     setBackdoorPressed(prevState => {
       return prevState + 1;
@@ -250,6 +251,7 @@ const WalletsAdd = () => {
     Keyboard.dismiss();
     setSelectedWalletType(ButtonSelected.OFFCHAIN);
   };
+  */
 
   const handleOnLdkButtonPressed = async () => {
     Keyboard.dismiss();
@@ -284,11 +286,13 @@ const WalletsAdd = () => {
             onPress={handleOnBitcoinButtonPressed}
             style={styles.button}
           />
+          {/*
           <LightningButton
             active={selectedWalletType === ButtonSelected.OFFCHAIN}
             onPress={handleOnLightningButtonPressed}
             style={styles.button}
           />
+          */}
           {backdoorPressed > 10 ? (
             <LdkButton
               active={selectedWalletType === ButtonSelected.LDK}
@@ -315,6 +319,7 @@ const WalletsAdd = () => {
                     title={HDSegwitBech32Wallet.typeReadable}
                     checkmark={selectedIndex === 0}
                   />
+                  {/*
                   <BlueListItem
                     containerStyle={[styles.noPadding, stylesHook.noPadding]}
                     bottomDivider={false}
@@ -322,6 +327,7 @@ const WalletsAdd = () => {
                     title={SegwitP2SHWallet.typeReadable}
                     checkmark={selectedIndex === 1}
                   />
+                  */}
                   <BlueListItem
                     containerStyle={[styles.noPadding, stylesHook.noPadding]}
                     bottomDivider={false}
